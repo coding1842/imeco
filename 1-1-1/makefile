@@ -11,4 +11,4 @@ install:
 
 remove:
 	rm -rf *.o
-	rm main
+	rm grade

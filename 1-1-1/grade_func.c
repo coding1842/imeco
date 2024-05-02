@@ -24,7 +24,7 @@ void score_grade(int piScore, char* psGrade)
 {
     if (piScore > 100)
     {
-        printf("최대점수는 100점입니다. 다시 입력해주세요");
+        printf("최대점수는 100점입니다. 다시 입력해주세요\n");
         exit(0);
     }
     else if (piScore <= 100 && piScore >= 90)
@@ -49,7 +49,7 @@ void score_grade(int piScore, char* psGrade)
     }
     else if (piScore < 0)
     {
-        printf("최소점수는 0점입니다. 다시 입력해주세요");
+        printf("최소점수는 0점입니다. 다시 입력해주세요\n");
         exit(0);
     }
 }  /* score_grade의 끝 */
