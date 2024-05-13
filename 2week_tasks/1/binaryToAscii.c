@@ -13,12 +13,11 @@
 
 
 /*------------------------------------------------ ---------------------------------
- * 기능 : 메인
- * 설명 : 성적입력하면 학점알려주는 프로그램
- * 입력 매개변수 : int liScore, char lsGrade
- * 출력 매개변수: int piScore, char lsGrade
- * 반환값 : SUCCESS - 0(FOK)
- * FAIL - 0 없음(FERR)
+ * 기능 : binaryToAscii
+ * 설명 : 바이너리 파일 아스키코드로 변환
+ * 입력 매개변수 : char gInputFileName
+ * 출력 매개변수: char gOutputFileName
+ * 반환값 : 
  *-------------------------------------- -------------------*/
 void binaryToAscii()
 {
